@@ -1,0 +1,7 @@
+obj/
+bin/
+.idea/
+node_modules/
+wwwroot/js/
+*.rest
+*.env
