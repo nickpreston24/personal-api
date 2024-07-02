@@ -8,8 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="1.1.2" />
+    <PackageReference Include="CodeMechanic.Diagnostics" Version="1.0.3" />
+    <PackageReference Include="CodeMechanic.FileSystem" Version="1.0.12" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\code-mechanic\CodeMechanic.Scriptures\CodeMechanic.Scriptures.csproj" />
+    <ProjectReference Include="..\CodeMechanic.Scraper\CodeMechanic.Scraper.csproj" />
   </ItemGroup>
 
 </Project>
