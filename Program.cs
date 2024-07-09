@@ -70,6 +70,12 @@ app.MapGet("/ammo/scrape/httpclient", async () =>
     return records;
 }).WithOpenApi();
 
+
+app.MapGet("youtube/download", async (string url, string format) =>
+{
+
+});
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
