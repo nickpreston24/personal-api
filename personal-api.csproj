@@ -1,24 +1,28 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>personal_api</RootNamespace>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>personal_api</RootNamespace>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AngleSharp" Version="1.1.2" />
-    <PackageReference Include="CodeMechanic.Diagnostics" Version="1.0.3" />
-    <PackageReference Include="CodeMechanic.FileSystem" Version="1.0.12" />
-    <PackageReference Include="Dapper" Version="2.1.35" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.5" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\code-mechanic\CodeMechanic.Scriptures\CodeMechanic.Scriptures.csproj" />
-    <ProjectReference Include="..\CodeMechanic.Scraper\CodeMechanic.Scraper.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="AngleSharp" Version="1.1.2" />
+        <PackageReference Include="CodeMechanic.Diagnostics" Version="1.0.3" />
+        <PackageReference Include="CodeMechanic.FileSystem" Version="1.0.12" />
+        <PackageReference Include="Dapper" Version="2.1.35" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.5" />
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.6" />
+        <PackageReference Include="SharpGrabber" Version="2.1.1" />
+        <PackageReference Include="SharpGrabber.Converter" Version="1.1.0" />
+        <PackageReference Include="SharpGrabber.Hls" Version="1.3.0" />
+        <PackageReference Include="SharpGrabber.Youtube" Version="1.5.0" />
+        <PackageReference Include="SharpGrabber.Vimeo" Version="1.0.0" />
+        <PackageReference Include="SharpGrabber.Odysee" Version="1.0.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+        <PackageReference Include="VideoLibrary" Version="3.2.4" />
+        <PackageReference Include="YoutubeDLSharp" Version="1.1.0" />
+    </ItemGroup>
 
 </Project>
